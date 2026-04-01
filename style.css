@@ -1,0 +1,88 @@
+/* --- Assignment 2 Specific Styles --- */
+
+/* 1. Task 1: Paragraphs & Blockquotes */
+#task1 p {
+    margin: 15px 0;
+    line-height: 1.6;
+    color: #5d4037; /* Dark cocoa text for readability */
+}
+
+blockquote {
+    border-left: 5px solid #f8bbd0; /* Coquette pink accent */
+    padding: 10px 20px;
+    background-color: #fff0f3;
+    font-style: italic;
+    border-radius: 0 10px 10px 0;
+}
+
+footer {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #ad1457;
+    text-align: center;
+}
+
+/* 2. Continuation: Breaks, HR, and Lists */
+hr {
+    border: 0;
+    height: 1px;
+    background: #fce4ec;
+    margin: 20px 0;
+}
+
+pre {
+    background-color: #fce4ec;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    overflow-x: auto; /* Adds scroll if text is too wide */
+    text-align: left;
+}
+
+/* List Styling */
+ul, ol {
+    text-align: left;
+    display: inline-block; /* Centers the list block while keeping text left-aligned */
+    margin-bottom: 30px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+/* Nested List specific styling */
+ul ul {
+    margin-bottom: 10px;
+    list-style-type: circle;
+}
+
+/* 3. The 10-Column Table (Crucial for Assignment 2) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    background-color: white;
+    font-size: 0.9rem; /* Smaller font to fit all 10 columns */
+}
+
+table, th, td {
+    border: 1px solid #f8bbd0;
+}
+
+th {
+    background-color: #fce4ec;
+    color: #ad1457;
+    padding: 12px 8px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 10px 5px;
+    text-align: center;
+}
+
+/* Zebra striping for the table rows */
+tr:nth-child(even) {
+    background-color: #fff9f9;
+}
